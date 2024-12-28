@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"rel="stylesheet"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+</head>
+<body>
+  <div id="cursor"></div>
+  <div id="main">
+      <div id="nav"> 
+        <a class="jatin" href=#>Jatin Purbia.</a>
+        <div id="menu">
+          <a data-value="Home" href="#main" class="scroll-link">Home</a>
+          <a data-value="About" href="#about" class="scroll-link">About</a>
+          <a data-value="Project" href="#projects" class="scroll-link">Project</a>
+          <a data-value="Skills" href="#tech-stack" class="scroll-link">Skills</a>
+          <a data-value="Contact" href="#contact" class="scroll-link">Contact</a>
+        </div>
+        <div class="sidebar">
+          <h2>Menu</h2>
+          <a data-value="Home" href="#main" class="scroll-link">Home</a>
+          <a data-value="About" href="#about" class="scroll-link">About</a>
+          <a data-value="Project" href="#project_mobile" class="scroll-link">Project</a>
+          <a data-value="Skills" href="#tech-stack" class="scroll-link">Skills</a>
+          <a data-value="Contact" href="#contact" class="scroll-link">Contact</a>
+          
+        </div>
+        <i id="lines" class="ri-menu-3-line"></i>
+      </div>
+      <div id="heading">
+        <div class="title">
+          <h1>Jatin Purbia</h1>
+          <h4>Tiny Changes,</h1>
+          <h4>Rearkable Results</h1>
+        </div>
+      </div>
+
+    <div id="about" class="section">
+        <h1>About me</h1>
+        <div id="about_inner">
+          <img src="media/jatin.jpg" alt="">
+          <div id="textabout">
+            <!-- <h4>(About me)</h4> -->
+            <p>My name is Jatin, and I am currently in the second year of my B.Tech program in Chemical Engineering at IIT Jodhpur. 
+              I have a keen interest in website development and have acquired proficiency in several programming languages and tools, 
+              including C/C++, Python, MySQL, HTML, CSS, and JavaScript. I am also skilled in using WordPress with plugins like Elementor 
+              and Stackable to create dynamic and visually appealing websites.I am excited to continue learning and enhancing my skills to create innovative and 
+              impactful projects.</p>
+            <a id="resume" href="https://drive.google.com/file/d/1IwIsy26LoON61hQhPhEkepo_qEnXBJHq/view?usp=sharing" target="_blank">Resume</a>      
+          </div>
+        </div>
+        <h4><i class="ri-arrow-down-line"></i>Scroll to Explore</h4>
+    </div>
+  
+    <div id="projects" class="section">
+      <h1>Projects</h1>
+      <div id="project_cards">
+        <div id="p1">
+          <div id="p_left">
+            <h1>Student Management System.</h1>
+            <h4>This project is a Student Management System designed to manage and store student credential records efficiently. 
+              It uses Python as the backend programming language and Tkinter for building an intuitive and user-friendly graphical user interface (GUI). 
+              The system securely stores student data in MySQL databases, enabling seamless data entry, retrieval, and updates.
+               With its robust functionality and interactive design, this project simplifies the management of student information.</h4>
+              <a href="#"><i class="ri-github-fill"></i>Github Link</a>
+          </div>
+          <div id="p_right">
+            <div class="image">
+              <img id="project_image" src="media/student_management_system.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div id="p2">
+          <div id="p_left">
+            <h1>Othello Reversi Game.</h1>
+            <h4>This project is an Othello Reversi Game developed in C language with a console-based user interface. 
+              The game implements the traditional rules of Othello, featuring logic for valid moves, flipping discs, and calculating scores. 
+              The console UI provides a straightforward and interactive experience, making it easy for players to engage with the game. 
+              This project highlights proficiency in C programming and problem-solving through well-structured code.</h4>
+            <a href="https://github.com/Jatin-Purbia/Othello-reversi-game.git"><i class="ri-github-fill"></i>Github Link</a>
+          </div>
+          <div id="p_right">
+            <div class="image">
+              <img id="project_image" src="media/othello.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div id="p3">
+          <div id="p_left">
+            <h1>Handwriten Digit Recognition Model.</h1>
+            <h4>This project involves creating a handwritten digit recognition model using machine learning. 
+              The model is trained on image data using a Convolutional Neural Network (CNN) to recognize digits accurately. 
+              For testing, the model utilizes a webcam to capture handwritten digits in real-time and predicts the corresponding output. 
+              The project evaluates the model's performance by measuring its accuracy, demonstrating proficiency in deep learning and 
+              computer vision techniques.</h4>
+            <a href="#"><i class="ri-github-fill"></i>Github Link</a>
+          </div>
+          <div id="p_right">
+            <div class="image">
+              <img id="project_image" src="media/digits.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div id="p4">
+          <div id="p_left">
+            <h1>Athlete Guiding Model.</h1>
+            <h4>This project is an athlete-guiding machine learning model designed specifically for javelin throwers. 
+              The model processes the player's pose and compares it to that of a professional athlete in the field. 
+              Based on the comparison, it provides detailed suggestions for improvements. This project demonstrates expertise in pose 
+              estimation, machine learning, and sports analytics, aiming to enhance athletic performance through data-driven insights.</h4>
+            <a href="#"><i class="ri-github-fill"></i>Github Link</a>
+          </div>
+          <div id="p_right">
+            <div class="image">
+              <img id="project_image" src="media/javelin.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="project_mobile">
+      <h1>Projects</h1>
+      <div id="project_card_mobile">
+        <div id="project1">
+          <div id="project_left">
+            <h2>Student Management System.</h2>
+            <h4>This project is a Student Management System designed to manage and store student credential records efficiently. 
+              It uses Python as the backend programming language and Tkinter for building an intuitive and user-friendly graphical user interface (GUI). 
+              The system securely stores student data in MySQL databases, enabling seamless data entry, retrieval, and updates.
+               With its robust functionality and interactive design, this project simplifies the management of student information.</h4>
+              <a href="#"><i class="ri-github-fill"></i>Github Link</a>
+          </div>
+          <div id="project_right">
+            <div class="pimage">
+              <img id="project_image" src="media/student_management_system.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div id="project2">
+          <div id="project_left">
+            <h2>Othello Reversi Game.</h2>
+            <h4>This project is an Othello Reversi Game developed in C language with a console-based user interface. 
+              The game implements the traditional rules of Othello, featuring logic for valid moves, flipping discs, and calculating scores. 
+              The console UI provides a straightforward and interactive experience, making it easy for players to engage with the game. 
+              This project highlights proficiency in C programming and problem-solving through well-structured code.</h4>
+            <a href="https://github.com/Jatin-Purbia/Othello-reversi-game.git"><i class="ri-github-fill"></i>Github Link</a>
+          </div>
+          <div id="project_right">
+            <div class="pimage">
+              <img id="project_image" src="media/othello.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div id="project3">
+          <div id="project_left">
+            <h2>Handwriten Digit Recognition Model.</h2>
+            <h4>This project involves creating a handwritten digit recognition model using machine learning. 
+              The model is trained on image data using a Convolutional Neural Network (CNN) to recognize digits accurately. 
+              For testing, the model utilizes a webcam to capture handwritten digits in real-time and predicts the corresponding output. 
+              The project evaluates the model's performance by measuring its accuracy, demonstrating proficiency in deep learning and 
+              computer vision techniques.</h4>
+            <a href="#"><i class="ri-github-fill"></i>Github Link</a>
+          </div>
+          <div id="project_right">
+            <div class="pimage">
+              <img id="project_image" src="media/digits.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div id="project4">
+          <div id="project_left">
+            <h2>Athlete Guiding Model.</h2>
+            <h4>This project is an athlete-guiding machine learning model designed specifically for javelin throwers. 
+              The model processes the player's pose and compares it to that of a professional athlete in the field. 
+              Based on the comparison, it provides detailed suggestions for improvements. This project demonstrates expertise in pose 
+              estimation, machine learning, and sports analytics, aiming to enhance athletic performance through data-driven insights.</h4>
+            <a href="#"><i class="ri-github-fill"></i>Github Link</a>
+          </div>
+          <div id="project_right">
+            <div class="pimage">
+              <img id="project_image" src="media/javelin.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="tech-stack">
+      <h1>Tech Stack</h1>
+      <div id="cards">
+        <div id="cpp" class="card">
+          <img src="media/cpp.png" alt="">
+          <h2 class="tech-title">Cpp</h2>
+          <div id="card_content">
+            <h2><i class="ri-gemini-fill"></i>Other Libraries:</h2>
+            <h3>Core Libraries</h3>
+            <h3>Input/Output</h3>
+            <h3>Math</h3>
+            <h3>Date & Time</h3>
+          </div>
+        </div>
+        <div id="py" class="card">
+          <img src="media/python.png" alt="">
+          <h2 class="tech-title">Python</h2>
+          <div id="card_content">
+            <h2><i class="ri-gemini-fill"></i>Other Libraries:</h2>
+            <h3>Tkinter</h3>
+            <h3>Scipy</h3>
+            <h3>Math</h3>
+            <h3>MySQL connector</h3>
+          </div>
+        </div>
+        <div id="mysql" class="card">
+          <img src="media/mysql.png" alt="">
+          <h2 class="tech-title">MySQL</h2>
+          <div id="card_content">
+            <h2><i class="ri-gemini-fill"></i>Other Libraries:</h2>
+            <h3>Database Creation</h3>
+            <h3>Data Manipulation</h3>
+            <h3>Backup and Recovery</h3>
+            <h3>Security</h3>
+          </div>
+        </div>
+        <div id="ml" class="card">
+          <img src="media/machine_learning.png" alt="">
+          <h2 class="tech-title">Machine Learning</h2>
+          <div id="card_content">
+            <h2><i class="ri-gemini-fill"></i>Other Libraries:</h2>
+            <h3>Matplotlib</h3>
+            <h3>Numpy</h3>
+            <h3>Pandas</h3>
+            <h3>Scikit Learn</h3>
+          </div>
+        </div>
+        <div id="html" class="card">
+          <img src="media/html.png" alt="">
+          <h2 class="tech-title">Html</h2>
+          <div id="card_content">
+            <h2><i class="ri-gemini-fill"></i>Other Features:</h2>
+            <h3>Multimedia Integration</h3>
+            <h3>Form Making</h3>
+            <h3>Responsive Design Support</h3>
+          </div>
+        </div>
+        <div id="css" class="card">
+          <img src="media/css.png" alt="">
+          <h2 class="tech-title">CSS</h2>
+          <div id="card_content">
+            <h2><i class="ri-gemini-fill"></i>Other Features:</h2>
+            <h3>Animations and Transitions</h3>
+            <h3>Responsive Design</h3>
+            <h3>Parallax Effect</h3>
+            <h3></h3>
+          </div>
+        </div>
+        <div id="javascript" class="card">
+          <img src="media/javascript.png" alt="">
+          <h2 class="tech-title">JavaScrip</h2>
+          <div id="card_content">
+            <h2><i class="ri-gemini-fill"></i>Other Features</h2>
+            <h3>Event Handling</h3>
+            <h3>DOM Manipulation</h3>
+            <h3>GSAP</h3>
+          </div>
+        </div>
+        <div id="wordpress" class="card">
+          <img src="media/wordpress.png" alt="">
+          <h2 class="tech-title">WordPress</h2>
+          <div id="card_content">
+            <h2><i class="ri-gemini-fill"></i>Other Plugins:</h2>
+            <h3>Elementor</h3>
+            <h3>Stackable</h3>
+            <h3>Yoast SEO</h3>
+            <h3>WPForms</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="contact" class="section">
+      <div class="scroll-content">
+        <h1>Contact</h1>
+        <h1>Contact</h1>
+        <h1>Contact</h1>
+        <h1>Contact</h1>
+      </div>
+      <div class="scroll-content">
+        <h1>Contact</h1>
+        <h1>Contact</h1>
+        <h1>Contact</h1>
+        <h1>Contact</h1>
+      </div>
+      <div id="content">
+        <div id="contact_left">
+          <div class="item" id="email">
+            <h1><i class="ri-mail-line"></i>Email</h1>
+            <a href="">jatinpurbia1@gmail.com</a>
+          </div>
+          <div class="item" id="phone">
+            <h1><i class="ri-phone-line"></i>Phone</h1>
+            <a href="">+91 8306777168</a>
+          </div>
+
+          <div class="item" id="but">
+            <a href="https://www.instagram.com/jatin_purbia/profilecard/?igsh=MXN2aXB1MnluMjdleA==" target="_blank">
+              <button><img src="media/instagram-logo.png" alt="Icon" />Instagram</button>
+            </a>
+            <a href="http://linkedin.com/in/jatin-purbia-355210212" target="_blank">
+              <button><img src="media/linkedin.png" alt="">Linkedin</button>
+            </a>
+            <a href="https://youtube.com/@jatinpurbia?si=FGaT0h3O_uXjyW6L" target="_blank">
+              <button><img src="media/youtube.png" alt="">Youtube</button>
+            </a>
+            <a href="https://github.com/Jatin-Purbia" target="_blank">
+              <button><img src="media/github.png" alt="">Github</button>
+            </a>
+            <a href="https://www.fiverr.com/s/WEDG97E" target="_blank">
+              <button><img src="media/icons8-fiverr-100.png" alt="">Fiverr</button>
+            </a>
+            <a href="https://x.com/PurbiaJati83406?t=b4fCciYhc2wuB2ZbfgEpfg&s=09" target="_blank">
+              <button><img src="media/twitter.png" alt="">Twitter</button>
+            </a>
+          </div>
+
+        </div>
+        <div id="contact_right">
+          <form id="contactForm" action="your-server-endpoint" method="POST">
+            <h2>Connect Me</h2>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+        
+            <label for="Email">Email</label>
+            <input type="Email" id="Email" name="Email" placeholder="Your Email" required>
+        
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+        
+            <button type="submit">Send Message</button>
+          </form>
+          <div id="messageModal" class="modal">
+            <div class="modal-content">
+              <p>Thank you for your message! I'll get back to you soon.</p>
+              <button id="closeModal">OK</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div id="footerleft">
+        <h5>2024 &copy;</h5>
+        <h5 id="clock"></h5>
+      </div>
+      <div id="footerright">
+        <h5><i class="ri-bard-line"></i>Thankyou for visiting!</h5>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
