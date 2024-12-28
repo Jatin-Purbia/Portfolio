@@ -336,8 +336,8 @@ h1 {
 
 #about h4{
   position: absolute;
-  bottom: 20px;
-  right: 20px;
+  bottom: 40px;
+  right: 40px;
   font-size: 20px;
 }
 
@@ -436,6 +436,7 @@ h1 {
   padding-top: 50px;
   padding-left: 0;
   font-size: 35px;
+  font-weight: 500;
   text-decoration: underline;      /* Add underline */
   text-decoration-thickness: 3px; /* Adjust thickness of the underline */
   text-underline-offset: 4px;  
@@ -443,6 +444,7 @@ h1 {
 
 #p_left h4{
   font-size: 20px;
+  font-weight: 500;
 }
 
 #p_left a{
@@ -524,10 +526,14 @@ h1 {
 
 #project_mobile h2{
   font-size: 6vw;
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: underline;      /* Add underline */
   text-decoration-thickness: 3px; /* Adjust thickness of the underline */
   text-underline-offset: 4px; 
+}
+
+#project_mobile h4{
+  font-weight: 500;
 }
 
 #project_left a {
@@ -611,6 +617,7 @@ h1 {
 
 #tech-stack h1{
   align-self: flex-start;
+  padding-bottom: 50px;
 }
 
 #tech-stack img{
@@ -827,7 +834,7 @@ h1 {
   background-color: #FFFEF3;
   /* margin-right: 8%; */
   /* margin-top: 40px; */
-  padding: 10px;
+  padding: 10px 20px;
   /* margin-bottom: 20px; */
   border-radius: 10px;
   width: 500px;
@@ -980,6 +987,7 @@ form {
     padding-right: 0px;
   }
 }
+
 
 .hidden {
   opacity: 0.3; /* Reduced opacity when fading */
