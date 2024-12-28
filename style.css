@@ -38,6 +38,13 @@ main{
   background-repeat: no-repeat; /* Prevent the image from repeating */
 }
 
+@media (max-width:1000px)
+{
+  #cursor{
+    display: none;
+  }
+}
+
 #nav{
   width: 100%;
   display: flex;
